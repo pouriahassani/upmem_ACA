@@ -1,0 +1,63 @@
+    1  ls
+    2  cd workspace/
+    3  ls
+    4  source upmem_env.sh 
+    5  cdTe
+    6  cd Tests/
+    7  ls
+    8  dpu-lldb
+    9  apt install update 
+   10  apt  update 
+   11  dpu-lldb
+   12  apt install python3
+   13  sudo apt-get install -y python3.10 python3.10-dev
+   14  export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+   15  dpu-lldb
+   16  ls
+   17  ./helloworld_host
+   18  cd ..
+   19  source upmem_env.sh 
+   20  ./helloworld_host
+   21  dpu-lldb
+   22  apt install clanf
+   23  apt install clang
+   24  dpu-lldb
+   25  export PYTHONPATH=/workspace/local/lib/python3.10/dist-packages:$PYTHONPATH
+   26  dpu-lldb
+   27  sudo apt-get install python3-pip
+   28  dpu-lldb
+   29  export PYTHONPATH=/workspace/local/lib/python3.10/dist-packages:$PYTHONPATH
+   30  dpu-lldb
+   31  pip install six
+   32  dpu-lldb
+   33  pip install psutil
+   34  dpu-lldb
+   35  cd Tests/
+   36  ls
+   37  gcc --std=c99 helloworld_host.c -o helloworld_host `dpu-pkg-config --cflags --libs dpu`
+   38  source ~/.bashrc
+   39  gcc --std=c99 helloworld_host.c -o helloworld_host `dpu-pkg-config --cflags --libs dpu`
+   40  cd ..
+   41  source upmem_env.sh 
+   42  cd Tests/
+   43  gcc --std=c99 helloworld_host.c -o helloworld_host `dpu-pkg-config --cflags --libs dpu`
+   44  cd ..
+   45  ./upmem_env.sh 
+   46  cd ..
+   47  cd workspace/
+   48  cd Tests/
+   49  gcc --std=c99 helloworld_host.c -o helloworld_host `dpu-pkg-config --cflags --libs dpu`
+   50  cat ~/.basrhc
+   51  cat ~/.bashrc
+   52  dpu-pkg-config --cflags --libs dpu
+   53  apt install gcc --std=c99 helloworld_host.c -o helloworld_host `dpu-pkg-config --cflags --libs dpu`
+   54  apt install pkg-config
+   55  dpu-pkg-config --cflags --libs dpu
+   56  apt install gcc --std=c99 helloworld_host.c -o helloworld_host `dpu-pkg-config --cflags --libs dpu`
+   57  gcc --std=c99 helloworld_host.c -o helloworld_host `dpu-pkg-config --cflags --libs dpu`
+   58  ./helloworld_host
+   59  dpu-upmem-dpurte-clang -DNR_TASKLETS=4 -o helloworld helloworld.c 
+   60  ./helloworld_host
+   61  his
+   62  history 
+   63  history >> ./commands
