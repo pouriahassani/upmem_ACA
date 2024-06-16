@@ -6,7 +6,6 @@
   },
   "extensions": [
     "ms-vscode.cpptools"
-    // Add other extensions as needed
   ],
   "postCreateCommand": "apt-get update && apt-get install -y build-essential gdb",
   "workspaceMount": "source",
