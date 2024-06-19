@@ -16,3 +16,5 @@ source upmem_env.sh
 
 # Install pkg-config
 apt install -y pkg-config
+
+apt-get install -y libnuma1 libedit2 build-essential software-properties-common curl wget git libc6 libstdc++6 libgcc-9-dev libgomp1
