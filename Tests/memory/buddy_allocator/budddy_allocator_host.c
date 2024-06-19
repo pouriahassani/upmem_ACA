@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdint.h>
 #ifndef DPU_BINARY
-#define DPU_BINARY "./helloworld"
+#define DPU_BINARY "./buddy_allocator"
 #endif
 
 int main(void) {
