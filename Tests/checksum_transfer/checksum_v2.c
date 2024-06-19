@@ -20,7 +20,6 @@ int main(){
         checksums[me()] += tmp_checksum; 
     }
     if(!me()){
-        uint32_t checksum =0;
         for(int i = 0;i<NR_TASKLETS;i++){
             checksum += checksums[i];
         }
